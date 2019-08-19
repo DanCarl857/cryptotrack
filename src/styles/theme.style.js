@@ -4,8 +4,7 @@ export default {
     LIGHTER_PRIMARY_COLOR: 'rgba(51, 122, 183, 0.2)',
     TERTIARY_COLOR: '#191516',
     DARKER_PRIMARY_COLOR: '#00B295',
-    SECONDARY_COLOR: '#8B8B8B',
-    SHADOW_COLOR: '#28a745',
+    SECONDARY_COLOR: '#28a745',
 
     // Text color
     TEXT_COLOR: '#2d3436',
