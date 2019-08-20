@@ -7,6 +7,7 @@ import Button from './../../components/Button/Button.component'
 
 const Start = () => (
     <View style={styles.container}>
+        <Text style={styles.header}>CRYPTO TRACK</Text>
         <Image
             source={require('./../../assets/logo.png')}
             style={styles.logoStyle}
