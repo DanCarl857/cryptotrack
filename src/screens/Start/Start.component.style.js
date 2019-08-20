@@ -26,5 +26,10 @@ export default StyleSheet.create({
         color: themeStyle.LABEL_COLOR,
         position: 'absolute',
         bottom: 30
+    },
+    header: {
+        marginBottom: 45,
+        fontSize: themeStyle.FONT_SIZE_xLARGE,
+        fontWeight: themeStyle.FONT_WEIGHT_HEAVY
     }
 })

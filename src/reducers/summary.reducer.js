@@ -5,9 +5,8 @@ let intialState = { data: [], loading: true }
 export const summaryReducer = (state = intialState, action) => {
     switch (action.type) {
         case SUMMARY_DATA_AVAILABLE:
-            state = { ...state, data: action.data, loading: false };
-            return state;
+            return { ...state, data: action.payload, loading: false }
         default:
-            return state;
+            return state
     }
 }
