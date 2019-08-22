@@ -13,6 +13,7 @@ export default {
     RED: '#db3236',
 
     // Font styling
+    FONT_WEIGHT_xLIGHT: '200',
     FONT_WEIGHT_LIGHT: '400',
     FONT_WEIGHT_MEDIUM: '600',
     FONT_WEIGHT_HEAVY: '900',

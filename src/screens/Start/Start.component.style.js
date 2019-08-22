@@ -31,5 +31,13 @@ export default StyleSheet.create({
         marginBottom: 45,
         fontSize: themeStyle.FONT_SIZE_xLARGE,
         fontWeight: themeStyle.FONT_WEIGHT_HEAVY
+    },
+    disclaimer: {
+        marginHorizontal: 30,
+        marginTop: 20,
+        fontSize: themeStyle.FONT_SIZE_SMALL,
+        fontStyle: 'italic',
+        color: themeStyle.LINE_COLOR,
+        textAlign: 'center'
     }
 })

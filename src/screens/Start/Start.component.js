@@ -17,6 +17,7 @@ const Start = () => (
             onPress={() => Actions.home()}
             text="Get started now"
         />
+        <Text style={styles.disclaimer}>*Disclaimer*: This is an application built for the fun of it and is in no way affiliated with the Coinmarket cap company though their API is used.</Text>
         <Text style={styles.copyrightText}>Copyright &copy; 2019</Text>
     </View>
 )
