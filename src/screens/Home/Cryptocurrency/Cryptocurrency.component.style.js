@@ -21,31 +21,5 @@ export default StyleSheet.create({
         textAlign: 'center',
         marginTop: 10
     },
-    row: {
-        flexDirection: 'row',
-        alignSelf: 'stretch',
-        paddingVertical: 10
-    },
-    col: {
-        flex: 1
-    },
-    col1: {
-        flex: 0.5
-    },
-    price: {
-        fontSize: themeStyle.FONT_SIZE_NORMAL,
-        fontWeight: themeStyle.FONT_WEIGHT_HEAVY
-    },
-    symbol: {
-        fontSize: themeStyle.FONT_SIZE_NORMAL,
-        fontWeight: themeStyle.FONT_WEIGHT_HEAVY
-    },
-    positiveChange: {
-        color: themeStyle.SECONDARY_COLOR,
-        fontWeight: themeStyle.FONT_WEIGHT_MEDIUM
-    },
-    negativeChange: {
-        color: themeStyle.RED,
-        fontWeight: themeStyle.FONT_WEIGHT_MEDIUM
-    }
+
 })

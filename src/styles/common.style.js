@@ -9,10 +9,6 @@ export default StyleSheet.create({
         shadowRadius: 2,
         elevation: 1,
     },
-    iconSize: {
-        width: 20,
-        height: 20
-    },
     center: {
         justifyContent: 'center',
         alignItems: 'center'
