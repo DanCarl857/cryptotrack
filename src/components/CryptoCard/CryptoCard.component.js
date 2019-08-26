@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text, View } from 'react-native'
+import PropTypes from 'prop-types'
 import styles from './CryptoCard.component.style'
 
 import Card from './../Card/Card.component'
@@ -44,6 +45,15 @@ const CryptoCard = ({
                 </View>
         </Card>
     )
+}
+
+CryptoCard.propTypes = {
+    name: PropTypes.string.isRequired,
+    symbol: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    percent_change_1h: PropTypes.number.isRequired,
+    percent_change_24h: PropTypes.number.isRequired,
+    percent_change_7d: PropTypes.number.isRequired
 }
 
 export default CryptoCard
