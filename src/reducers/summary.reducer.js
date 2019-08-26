@@ -2,7 +2,7 @@ import { SUMMARY_DATA_AVAILABLE, SUMMARY_DATA_NOT_AVAILABLE } from './../constan
 
 let intialState = { data: [], loading: true }
 
-export const summaryReducer = (state = intialState, action) => {
+const summaryReducer = (state = intialState, action) => {
     switch (action.type) {
         case SUMMARY_DATA_AVAILABLE:
             return { ...state, data: action.payload, loading: false }
@@ -12,3 +12,5 @@ export const summaryReducer = (state = intialState, action) => {
             return state
     }
 }
+
+export default summaryReducer
