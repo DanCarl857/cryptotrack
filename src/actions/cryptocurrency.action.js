@@ -12,7 +12,9 @@ export function getCryptocurrencies() {
                 payload: cryptocurrencyResponse.data
             })
         } catch (error) {
-            Alert.alert('Error', error.response.data.message)
+            dispatch({
+                type: types.CRYPTOCURRENCIES_DATA_NOT_AVAILABLE
+            })
         }
     }
 }

@@ -1,15 +1,11 @@
 export default {
     //  Colors
     PRIMARY_COLOR: '#1e2122',
-    LIGHTER_PRIMARY_COLOR: 'rgba(51, 122, 183, 0.2)',
-    TERTIARY_COLOR: '#191516',
-    DARKER_PRIMARY_COLOR: '#00B295',
     SECONDARY_COLOR: '#28a745',
 
     // Text color
     TEXT_COLOR: '#2d3436',
     WHITE: '#FFF',
-    BLACK: '#000',
     RED: '#db3236',
 
     // Font styling
