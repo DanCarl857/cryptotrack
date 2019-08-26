@@ -1,6 +1,5 @@
 import * as types from './../constants/types'
 import { createAxiosInstance } from '../utils'
-import { Alert } from 'react-native'
 
 export function getSummary() {
     return async (dispatch) => {
@@ -12,7 +11,9 @@ export function getSummary() {
                 payload: summaryResponse.data
             })
         } catch (error) {
-            Alert.alert('Error', error.response.data.message)
+            dispatch({
+                type: types.SUMMARY_DATA_NOT_AVAILABLE
+            })
         }
     }
 }
