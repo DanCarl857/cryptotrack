@@ -13,7 +13,7 @@ describe('SUMMARY', () => {
         })
     })
 
-    describe('DATA_AVAILABLE', () => {
+    describe('SUMMARY DATA AVAILABLE', () => {
         test('returns the correct state', () => {
             const action = { type: types.SUMMARY_DATA_AVAILABLE, payload: 1 }
             const expectedState = { data: 1, loading: false }
@@ -34,7 +34,7 @@ describe('CRYPTOCURRENCY', () => {
         })
     })
 
-    describe('DATA_AVAILABLE', () => {
+    describe('CRYPTOCURRENCY DATA AVAILABLE', () => {
         test('returns the correct state', () => {
             const action = { type: types.CRYPTOCURRENCIES_DATA_AVAILABLE, payload: 1 }
             const expectedState = { data: 1, loading: false }

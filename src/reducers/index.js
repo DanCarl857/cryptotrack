@@ -4,7 +4,6 @@ import { combineReducers } from 'redux'
 import summaryReducer from './summary.reducer'
 import cryptoReducer from './cryptocurrency.reducer'
 
-
 const rootReducer = combineReducers({
     summaryData: summaryReducer,
     cryptoData: cryptoReducer
